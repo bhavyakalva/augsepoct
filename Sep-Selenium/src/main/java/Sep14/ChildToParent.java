@@ -17,7 +17,7 @@ public class ChildToParent {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		driver.navigate().to("http://automationpractice.com/");
-		driver.findElement(By.xpath("/input[@name='search_query']//parent::form")).sendKeys("Dresses");
+		driver.findElement(By.xpath("/input[@name='search_query']//parent::form")).sendKeys("Dresses ");
 		
 		
 
